@@ -1,12 +1,10 @@
 from googlevoice import Voice
 from googlevoice.util import input
-import sys
 
-username, password = "gvoiceits@gmail.com", "$Yracus3"
 voice = Voice()
-voice.login(username, password)
+voice.login()
 
-phoneNumber = input('Number to send message to: ')
-text = input('Message text: ')
+phoneNumber = cell
+text = messagetext
 
 voice.send_sms(phoneNumber, text)
